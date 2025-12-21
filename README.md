@@ -1,0 +1,1 @@
+# ma-google-addon
