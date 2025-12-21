@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="google-site-verification" content="GUPMclGKToOF7IBuobP6D-Vf_ZfK8rRH76c9PyPifEA" />
-  <title>Moving Average Google Add-on</title>
-</head>
-<body>
-  <h1>Moving Average Google Add-on</h1>
-  <p><a href="https://wujingwe.github.io/ma-google-addon/privacy">Privacy Policy</a></p>
-</body>
-</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. PASTE YOUR GOOGLE SEARCH CONSOLE CODE HERE -->
+    <meta name="google-site-verification" content="PASTE_YOUR_VERIFICATION_CODE_HERE" />
+
+    <title>MA YEAR | Professional Stock Analysis for Google Sheets</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #09090b;
+            --surface: #18181b;
+            --primary: #10b981;
+            --primary-muted: rgba(16, 185, 129, 0.1);
+            --text-main: #fafafa;
+            --text-muted: #a1a1aa;
+            --border: #27272a;
+            --code-bg: #000000;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Hero / Background Effect */
+        .hero {
+            position: relative;
+            text-align: center;
+            padding: 120px 24px 160px;
+            background: radial-gradient(circle at 50% -20%, #064e3b 0%, #09090b 70%);
+        }
+
+        .badge {
+            background: var(--primary-muted);
+            color: var(--primary);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid var(--primary);
+            margin-bottom: 32px;
+            display: inline-block;
+            letter-spacing: 0.05em;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 5rem);
+            font-weight: 800;
+            margin: 0 0 20px 0;
+            letter-spacing: -0.04em;
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            font-
